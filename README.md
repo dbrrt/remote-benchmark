@@ -24,9 +24,14 @@ instructions = [
 ]
 ```
 
-### Start benchmark
+### Start benchmark (silent mode `-s`)
 
-`make start`
+`make -s start`
+
+
+### Output sample
+
+`{'lines_cnt': 15, 'execution_cmd': 'ls -l', 'execution_time': 0.527428150177002}`
 
 ## License
 
