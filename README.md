@@ -6,13 +6,13 @@ This project has been created to retrieve running time (s) of multiple bash comm
 
 ## Get Started
 
-### Installing dependencies
-
-- `make install`
-
 ### Prepare credentials / hostname
 
 - `cp .env.tpl .env`
+
+### Installing dependencies
+
+- `make install`
 
 ### Update execution instruction (from app.py)
 
