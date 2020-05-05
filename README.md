@@ -1,4 +1,4 @@
-# Bash Remote Benchmark
+# Remote Benchmark
 
 ## Laconic
 
