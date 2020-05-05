@@ -28,7 +28,7 @@ def start_bench(func: str):
 		)
 
 		# pylint: disable=unbalanced-tuple-unpacking,unused-variable
-		stdin, stdout, err = ssh.exec_command('ls -l')
+		stdin, stdout, err = ssh.exec_command(func)
 
 		arr_output = []
 		for el in stdout:
